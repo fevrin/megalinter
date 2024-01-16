@@ -69,7 +69,7 @@ This linter is available in the following flavours
 
 ### How are identified applicable files
 
-- Activated only if sub-directory `` is found. (directory name can be overridden with `KUBERNETES_DIRECTORY`)
+- Activated only if sub-directory `charts` is found. (directory name can be overridden with `KUBERNETES_DIRECTORY`)
 - Activated only if one of these files is found: `Chart.yml, Chart.yaml`
 - File extensions: `.yml`, `.yaml`, `.json`
 - Detected file content (regex): `apiVersion:`, `kustomize\.config\.k8s\.io`, `tekton`
